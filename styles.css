@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aliceblue;
+    position: relative;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: darkgoldenrod;
+}
+
+.title-des {
+    color: rgb(131, 129, 129);
+    font-weight: 600;
+}
+
+.hero {
+    padding-block: 2rem;
+    text-align: center;
+}
+
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 1800px;
+    padding-block: 10px;
+}
+
+h2 {
+    color: darkgoldenrod;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#tribute-link {
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
